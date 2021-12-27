@@ -1,0 +1,26 @@
+.App{
+  background-image:url('./assets/images/realistic-snowfall-background_23-2148402759.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.photoshop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px 0px;
+  font-weight: 600;
+}
+.span{
+  padding:0px 6px;
+}
+
+@media (max-width: 720px)
+{
+  .App{
+    background-image:url('./assets/images/realistic-snowfall-background_23-2148402759.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } 
+}
